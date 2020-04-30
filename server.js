@@ -3,7 +3,7 @@ const lodash = require("lodash");
 
 
 const io =
-  require("socket.io")(require("http").createServer(function(){}).listen(process.env.PORT || 80));
+  require("socket.io")(require("http").createServer(function(){}).listen(process.env.PORT || "80"));
 
 
 const players = { };
